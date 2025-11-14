@@ -31,8 +31,8 @@ class ReplyKeyboardSingleton:
             logger.debug("ReplyKeyboard oluşturuluyor...")
             cls._instance = ReplyKeyboardMarkup(
                 keyboard=[
-                    [KeyboardButton(text="oku"), KeyboardButton(text="Temizle"), KeyboardButton(text="Kova"), KeyboardButton(text="TEK")],
-                    [KeyboardButton(text="stop"),KeyboardButton(text="JSON yap"), KeyboardButton(text="Komutlar"),KeyboardButton(text="Pdf")],
+                    [KeyboardButton(text="oku"), KeyboardButton(text="Temizle"), KeyboardButton(text="Kova"), KeyboardButton(text="PEX")],
+                    [KeyboardButton(text="stop"),KeyboardButton(text="JSON yap"), KeyboardButton(text="Komutlar")],
                 ],
 
                 resize_keyboard=True,
@@ -143,16 +143,6 @@ async def handle_process(message: Message, state: FSMContext) -> None:
 
 
 
-
-# TEK
-@router.message(lambda m: m.text and m.text == "TEK")
-async def handle_tek(message: Message, state: FSMContext):
-    """Reply keyboard → TEK butonu (/tek)"""
-    from handlers.tek_handler import cmd_tek
-    await message.answer("⚙️ TEK işlem başlatılıyor...")
-    await cmd_tek(message, state)
-
-
 # JSON yap
 @router.message(lambda m: m.text and m.text == "JSON yap")
 async def handle_create_json(message: Message, state: FSMContext) -> None:
@@ -166,15 +156,35 @@ async def handle_create_json(message: Message, state: FSMContext) -> None:
     await handle_json_command(message, state)
 
 
-# Toplu Mail silindi
 
-# PDF butonu handler'ını ekleyin
+# pex butonu handler'ını 
+@router.message(lambda m: m.text and m.text == "PEX")
+async def handle_pex_process(message: Message, state: FSMContext):
+    """Reply keyboard → PEX butonu (/pex)"""
+    from handlers.pex_handler import cmd_pex
+    await cmd_pex(message, state)
+
+
+
+
+r""" revize/ kaldırılacak
+# TEK Reply keyboard → TEK butonu (/tek
+@router.message(lambda m: m.text and m.text == "TEK")
+async def handle_tek(message: Message, state: FSMContext):
+    from handlers.tek_handler import cmd_tek
+    await message.answer("⚙️ TEK işlem başlatılıyor...")
+    await cmd_tek(message, state)
+
+
+# PDF Reply keyboard → PDF İşle butonu (/pdf)
 @router.message(lambda m: m.text and m.text == "Pdf")
 async def handle_pdf_process(message: Message, state: FSMContext):
-    """Reply keyboard → PDF İşle butonu (/pdf)"""
     from handlers.pdf_handler import cmd_pdf
     await cmd_pdf(message, state)
+"""
 
+
+    
 # Komutlar
 @router.message(lambda m: m.text and m.text == "Komutlar")
 async def handle_show_commands(message: Message, state: FSMContext) -> None:
