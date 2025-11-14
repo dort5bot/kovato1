@@ -20,7 +20,6 @@ from handlers.file_handler import router as file_router
 from handlers.tek_handler import router as tek_router
 from handlers.cancel_handler import router as cancel_router
 from handlers.email_handler import router as email_router
-from handlers.pdf_handler import router as pdf_router
 from handlers.pex_handler import router as pex_router
 
 
@@ -182,7 +181,7 @@ async def main():
     dp.include_router(file_router)
     dp.include_router(tek_router)  # Diğer router'lardan sonra
     dp.include_router(email_router) #kişiye mail
-    dp.include_router(pdf_router) # pdf
+    dp.include_router(pex_router) # pex
 
 
 
@@ -196,7 +195,7 @@ async def main():
 
         if config.USE_WEBHOOK:
             # Webhook modu
-            print("🚀 Webhook modu başlatılıyor...")
+            print("🚀 Webhook modu başlatıldı...")
             webhook_runner = await start_webhook(bot, dp)
             
             # Her iki sunucu da çalışır durumda kalacak
