@@ -21,6 +21,7 @@ from handlers.tek_handler import router as tek_router
 from handlers.cancel_handler import router as cancel_router
 from handlers.email_handler import router as email_router
 from handlers.pdf_handler import router as pdf_router
+from handlers.pex_handler import router as pex_router
 
 
 
