@@ -62,8 +62,13 @@ async def send_welcome_message(message: Message):
     await message.answer(
         "📊 Excel İşleme Botuna Hoşgeldiniz!\n\n"
         "1️⃣ Önce **Temizle** butonuna tıkla.\n"
-        "2️⃣ Excel dosyasını kontrol et.\n"
-        "3️⃣ Dosyada **1. satırda** 'TARİH' ve 'İL' sütunları bulunmalıdır."
+        "sonra **Stop** butonuna tıkla.\n"
+        "\n"
+        "2️⃣ (kova) Excelde dosyayı kontrol et.\n"
+        "Dosyada **1. satırda** 'TARİH' ve 'İL' sütunları bulunmalıdır.\n"
+        "\n"
+        "3️⃣  (pex) il adı olan Pdf yada excel gönderme:.\n"
+        "dosya adı *küçük harf* olmalı(örn: ankara).\n"
     )
     await show_reply_keyboard(message, "📋 Hızlı Erişim Menüsü")
 
