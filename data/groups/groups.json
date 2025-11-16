@@ -12,9 +12,11 @@
       "group_id": "grup_1",
       "group_name": "antalya_sube",
       "email_recipients": [
+        "anadolugroupsigorta@gmail.com",
         "anadoluexpert.nurhan@gmail.com"
       ],
       "cities": [
+        "antalya_sube",
         "Afyon",
         "Aksaray",
         "Ankara",
@@ -34,9 +36,11 @@
       "group_id": "grup_2",
       "group_name": "mersin_sube",
       "email_recipients": [
+        "anadolugroupsigorta@gmail.com",
         "ortadogudanismanlikk@gmail.com"
       ],
       "cities": [
+        "=F2",
         "Adana",
         "Adıyaman",
         "Batman",
@@ -47,7 +51,7 @@
         "Gaziantep",
         "Hakkari",
         "Hatay",
-        "Kahramanmaraş",
+        "İ̇Çel",
         "Kilis",
         "Malatya",
         "Mardin",
@@ -59,22 +63,22 @@
         "Şırnak",
         "Van",
         "Urfa",
-        "içel",
-        "İçel"
+        "Kahramanmaraş",
+        "Maraş"
       ]
     },
     {
       "group_id": "grup_3",
       "group_name": "izmir_sube",
       "email_recipients": [
+        "anadolugroupsigorta@gmail.com",
         "sinansevimli04@gmail.com",
         "ceylanizmiranadolu@gmail.com"
       ],
       "cities": [
+        "=G2",
         "Afyon",
         "Aydın",
-        "Burdur",
-        "Isparta",
         "İzmir",
         "Çanakkale",
         "Manisa",
@@ -90,9 +94,11 @@
       "group_id": "grup_4",
       "group_name": "bursa_sube",
       "email_recipients": [
+        "anadolugroupsigorta@gmail.com",
         "hasaranalizmerkezi16@gmail.com"
       ],
       "cities": [
+        "=H2",
         "Balıkesir",
         "Bursa",
         "Çanakkale",
@@ -107,21 +113,24 @@
       "group_id": "grup_5",
       "group_name": "balıkesir_sube",
       "email_recipients": [
+        "anadolugroupsigorta@gmail.com",
         "sevketozel145@gmail.com"
       ],
       "cities": [
+        "=I2",
         "Balıkesir",
-        "Çanakkale",
-        "Balıkesir"
+        "Çanakkale"
       ]
     },
     {
       "group_id": "grup_6",
       "group_name": "karadeniz_sube",
       "email_recipients": [
+        "anadolugroupsigorta@gmail.com",
         "batikaradenizemel@gmail.com"
       ],
       "cities": [
+        "=J2",
         "Artvin",
         "Bayburt",
         "Çankırı",
@@ -135,16 +144,19 @@
         "Sinop",
         "Sivas",
         "Tokat",
-        "Trabzon"
+        "Trabzon",
+        "Ardahan"
       ]
     },
     {
       "group_id": "grup_7",
       "group_name": "erzincan_sube",
       "email_recipients": [
+        "anadolugroupsigorta@gmail.com",
         "serkan.ovayurt1903@gmail.com"
       ],
       "cities": [
+        "=K2",
         "Bingöl",
         "Erzincan",
         "Erzurum",
@@ -166,29 +178,31 @@
       "group_id": "grup_8",
       "group_name": "eskişehir_sube",
       "email_recipients": [
+        "anadolugroupsigorta@gmail.com",
         "anadolugrupesk@gmail.com"
       ],
       "cities": [
+        "=L2",
         "Afyon",
         "Ankara",
         "Bilecik",
         "Eskişehir",
-        "Uşak",
-        "Bursa"
+        "Uşak"
       ]
     },
     {
       "group_id": "grup_9",
       "group_name": "kütahya_sube",
       "email_recipients": [
+        "anadolugroupsigorta@gmail.com",
         "anadoluhasarnursen@gmail.com"
       ],
       "cities": [
+        "=M2",
         "Afyon",
         "Ankara",
         "Bilecik",
         "Bozüyük",
-        "Bursa",
         "Eskişehir",
         "Kütahya",
         "Uşak",
@@ -200,9 +214,11 @@
       "group_id": "grup_10",
       "group_name": "corum_sube",
       "email_recipients": [
+        "anadolugroupsigorta@gmail.com",
         "corumhasar19@gmail.com"
       ],
       "cities": [
+        "=N2",
         "Amasya",
         "Ankara",
         "Çankırı",
@@ -220,9 +236,11 @@
       "group_id": "grup_11",
       "group_name": "denizli_sube",
       "email_recipients": [
+        "anadolugroupsigorta@gmail.com",
         "osman.anadoluhasar@gmail.com"
       ],
       "cities": [
+        "=O2",
         "Afyon",
         "Aydın",
         "Burdur",
@@ -242,9 +260,11 @@
       "group_id": "grup_12",
       "group_name": "akhisar_sube",
       "email_recipients": [
+        "anadolugroupsigorta@gmail.com",
         "halilakhisar@gmail.com"
       ],
       "cities": [
+        "=P2",
         "Manisa"
       ]
     },
@@ -252,9 +272,11 @@
       "group_id": "grup_13",
       "group_name": "düzce_sube",
       "email_recipients": [
+        "anadolugroupsigorta@gmail.com",
         "omurburhankorkmaz@anadoluexpert.com"
       ],
       "cities": [
+        "=Q2",
         "Bolu",
         "Düzce",
         "Edirne",
@@ -272,11 +294,13 @@
     },
     {
       "group_id": "grup_14",
-      "group_name": "niğde_sube",
+      "group_name": "nigde_sube",
       "email_recipients": [
+        "anadolugroupsigorta@gmail.com",
         "anadolu.group51@hotmail.com"
       ],
       "cities": [
+        "=R2",
         "Kayseri",
         "Nevşehir",
         "Aksaray",
@@ -286,70 +310,30 @@
     },
     {
       "group_id": "grup_15",
-      "group_name": "",
-      "email_recipients": [],
-      "cities": []
+      "group_name": "emre_oztur_hukuk",
+      "email_recipients": [
+        "emre.anadoluexpert@gmail.com"
+      ],
+      "cities": [
+        "=S2",
+        "İstanbul",
+        "Kocaeli",
+        "Sakarya",
+        "Tekirdağ"
+      ]
     },
     {
       "group_id": "grup_16",
-      "group_name": "",
-      "email_recipients": [],
-      "cities": []
-    },
-    {
-      "group_id": "grup_17",
-      "group_name": "",
-      "email_recipients": [],
-      "cities": []
-    },
-    {
-      "group_id": "grup_18",
-      "group_name": "",
-      "email_recipients": [],
-      "cities": []
-    },
-    {
-      "group_id": "grup_19",
-      "group_name": "",
-      "email_recipients": [],
-      "cities": []
-    },
-    {
-      "group_id": "grup_20",
-      "group_name": "",
-      "email_recipients": [],
-      "cities": []
-    },
-    {
-      "group_id": "grup_21",
-      "group_name": "",
-      "email_recipients": [],
-      "cities": []
-    },
-    {
-      "group_id": "grup_22",
-      "group_name": "",
-      "email_recipients": [],
-      "cities": []
-    },
-    {
-      "group_id": "grup_23",
-      "group_name": "",
-      "email_recipients": [],
-      "cities": []
-    },
-    {
-      "group_id": "grup_24",
-      "group_name": "",
-      "email_recipients": [],
-      "cities": []
-    },
-    {
-      "group_id": "grup_25",
-      "group_name": "",
-      "email_recipients": [],
-      "cities": []
+      "group_name": "savas_ugur_hukuk",
+      "email_recipients": [
+        "savas.anadoluexpert@gmail.com"
+      ],
+      "cities": [
+        "=T2",
+        "İstanbul",
+        "Kocaeli",
+        "Sakarya"
+      ]
     }
   ]
 }
-
