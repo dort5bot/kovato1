@@ -61,6 +61,7 @@ async def show_reply_keyboard(message: Message, title: str) -> None:
 async def send_welcome_message(message: Message):
     await message.answer(
         "📊 Excel İşleme Botuna Hoşgeldiniz!\n\n"
+        "version: 16/11/2025 \n"
         "1️⃣ Önce **Temizle** butonuna tıkla.\n"
         "sonra **Stop** butonuna tıkla.\n"
         "\n"
